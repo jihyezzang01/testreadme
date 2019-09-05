@@ -35,7 +35,7 @@ anyframe widget의 기능에 대한 자동화 테스트를 수행하는 brity wo
 ## 2. 자동화 테스트
 ### 시작하기
 1. [테스트를 위해서 로컬서버를 실행](#로컬서버)한다.
-2. Anyframe_UI_Test.proj 파일을 선택 Brity works를 실행한다.
+2. **Anyframe_UI_Test.proj** 파일을 선택 Brity works를 실행한다.
 
 ### 설정
    * targetChrome 변수
