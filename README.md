@@ -35,7 +35,7 @@ anyframe widget의 기능에 대한 자동화 테스트를 수행하는 brity wo
 ## 2. 자동화 테스트
 ### 시작하기
 1. [테스트를 위해서 로컬서버를 실행](#로컬서버)한다.
-2. Anyframe_UI_Test.proj 파일을 선택 실행한다. (Brity works가 실행된다)
+2. Anyframe_UI_Test.proj 파일을 선택 Brity works를 실행한다.
 
 ### 설정
    * targetChrome 변수
@@ -47,12 +47,12 @@ anyframe widget의 기능에 대한 자동화 테스트를 수행하는 brity wo
 
 ### 전체 위젯 테스트
    * **RunTestSuites** 프로세스를 선택하고 실행버튼을 눌러 실행한다.
-   * 실행이 끝나면 로그파일을 통해서 실행 결과를 확인해 볼 수 있다.
+   * 실행이 끝나면 로그파일을 통해서 결과를 확인해 볼 수 있다.
         
-	log file path: {anyframe_auto_test path}\Histories\{실행시점}_RunTestSuites\Log\AUITestLog.txt
+	log file path: {anyframe_auto_test path}\Histories\{실행시간}_RunTestSuites\Log\AUITestLog.txt
 ### 개별 위젯 테스트
    * 테스트하기 원하는 위젯을 선택한다.
    * TS_{widget name} 작업을 선택하고 실행버튼을 눌러 실행한다.
-   * 실행이 끝나면 로그파일을 통해서 실행 결과를 확인해 볼 수 있다.
+   * 실행이 끝나면 로그파일을 통해서 결과를 확인해 볼 수 있다.
         
-	log file path: {anyframe_auto_test path}\Histories\{실행시점}_TS{widget name}\Log\AUITestLog.txt
+	log file path: {anyframe_auto_test path}\Histories\{실행시간}_TS{widget name}\Log\AUITestLog.txt
