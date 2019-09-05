@@ -24,7 +24,7 @@ anyframe widget의 기능에 대한 자동화 테스트를 수행하는 brity wo
 
 4. 생성한 lib 디렉토리를 path로 설정하여 테스트 코드를 빌드한다.
 	
-	**grunt --path=widget_test/lib**
+	**grunt --path=widget_test\lib**
 
 ### <a name="로컬서버">테스트를 위한 로컬서버 실행하기</a>
 1. 테스트 디렉토리(widget_test)로 이동하여 로컬서버를 띄운다.
