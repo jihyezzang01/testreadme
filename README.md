@@ -1,5 +1,5 @@
 # 사용자 가이드
-anyframe widget의 기능에 대한 자동화 테스트를 위한 brity works project 이다.
+anyframe widget의 기능에 대한 자동화 테스트를 수행하는 brity works project 이다.
 
 ## 1. 준비사항
 
@@ -28,6 +28,7 @@ anyframe widget의 기능에 대한 자동화 테스트를 위한 brity works pr
 
 ### <a name="로컬서버">테스트를 위한 로컬서버 실행하기</a>
 1. 테스트 디렉토리(widget_test)로 이동하여 로컬서버를 띄운다.
+
 	**npx http-server** (또는 **npx http-server@0.9.0**)
 	* 실행이 실패하는 경우, node 버전(12.2.0 이상)과 npm 버전(6.9.0 이상)을 확인해 본다.
 
